@@ -1,0 +1,26 @@
+{
+  "name": "azheda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "colors": "^1.4.0",
+    "connect-livereload": "^0.6.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-list-endpoints": "^6.0.0",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.1.1",
+    "livereload": "^0.9.3",
+    "path": "^0.12.7",
+    "reload": "^3.2.1",
+    "socket.io": "^4.7.2"
+  }
+}
