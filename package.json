@@ -1,0 +1,35 @@
+{
+  "name": "interface",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "cls && node index.js",
+    "watch": "cls && nodemon --ext js --ignore templates/ index.js",
+    "populate": "cls && node populate-db.js",
+    "watch-populate": "cls && nodemon --ext js populate-db.js",
+    "test": "cls && nodemon --ext js test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "azheda": "file:moduli",
+    "body-parser": "^1.20.2",
+    "colors": "^1.4.0",
+    "connect-livereload": "^0.6.1",
+    "cors": "^2.8.5",
+    "eval": "^0.1.8",
+    "express": "^4.18.2",
+    "express-list-endpoints": "^6.0.0",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.1.1",
+    "hide-terminal-cursor": "^0.0.1",
+    "path": "^0.12.7",
+    "pokedex-promise-v2": "^4.1.1",
+    "show-terminal-cursor": "^0.0.2",
+    "socket.io": "^4.7.2",
+    "surrealdb.js": "^0.8.4"
+  }
+}
