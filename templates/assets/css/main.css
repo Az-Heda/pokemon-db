@@ -1,0 +1,37 @@
+:root {
+	--page-background-color: #222;
+	--page-text-color: #fff;
+	--select-background-color: #222;
+}
+
+
+body {
+	background-color: var(--page-background-color);
+	color: var(--page-text-color);
+}
+
+.button-with-icon {
+	background-color: #eee;
+	border: none;
+	border-radius: 0 10px 10px 0;
+	height: 100%;
+}
+
+.button-with-icon:hover {
+	background-color: #aaa;
+}
+
+select {
+	background-color: var(--select-background-color) !important;
+	color: var(--page-text-color) !important;
+	text-transform: capitalize;
+}
+
+select > option {
+	background-color: var(--select-background-color) !important;
+	color: var(--page-text-color);
+}
+
+#pokedex img {
+	cursor: pointer;
+}
