@@ -17,7 +17,7 @@ const CONFIG = {
 	surrealdb:{
 		user: 'root', password: 'root',
 		namespace: 'test', database: 'test',
-		url: 'http://localhost:8000/rpc'
+		url: 'http://127.0.0.1:8000/rpc'
 	},
 	allowDebugMessages: true,
 }
